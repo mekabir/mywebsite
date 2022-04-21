@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build: .
+    image: mekabir/mywebsite:1.0
+    ports: 
+      - "8000:8080"
+#   db:
+#     image: "mysql"
+#     environment:
+#       MYSQL_ROOT_PASSWORD: password
+#     volumes:
+#       - db-data:/foo
+# volumes:
+#   db-data:
