@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/mekabir/mywebsite#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "ejs": "^3.1.7",
     "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "method-override": "^3.0.0",
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
+    "dotenv": "^16.0.0",
     "nodemon": "^2.0.15"
   }
 }
