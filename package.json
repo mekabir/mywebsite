@@ -2,10 +2,11 @@
   "name": "mywebsite",
   "version": "1.0.0",
   "description": "My website",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/mekabir/mywebsite#readme",
   "dependencies": {
+    "ejs": "^3.1.7",
     "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
